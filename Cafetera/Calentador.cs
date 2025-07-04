@@ -13,8 +13,4 @@
             public void apagar()
             {
                 Console.WriteLine("Apagando cafetera \n ¡CUIDADO SIGUE CALIENTE!");
-                Console.WriteLine("Cafetera apagada");
-            }
-        }
-    }
-}
+
