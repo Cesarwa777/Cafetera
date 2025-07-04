@@ -16,11 +16,11 @@
 
         public void prepararCafe() 
         {
-            Console.WriteLine("Haciendo el cafesito...");
+            Console.WriteLine("Haciendo el cafe");
 
             if (!sensor.detectaAgua() || !sensor.detectarTaza()) 
             {
-                Console.WriteLine("Error: verifica la cantidad de agua o la taza");
+                Console.WriteLine("Error: checar la cantidad de agua esta muy llena");
                 return;
             }
 
@@ -28,7 +28,7 @@
             deposito.consumirAgua(500);
             calentador.apagar();
 
-            Console.WriteLine("Cafesito listo");
+            Console.WriteLine("Cafe Listo");
             
         }
     }
